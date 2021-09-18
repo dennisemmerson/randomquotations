@@ -37,7 +37,6 @@ class App extends React.Component {
             <h2 id="text"><span id="block-quote">"</span>   {this.state.quote.quoteText}<span id="block-quote">   "</span></h2>
             <p id="author">{this.state.quote.quoteAuthor}</p>
             <button className="button-53" id="new-quote" onClick={this.newQuote}>New Quote</button>
-            <a id="tweet-quote" target="_blank" href="twitter.com/intent/tweet">Twitter</a>
             </div>
           </div>
       </div>
